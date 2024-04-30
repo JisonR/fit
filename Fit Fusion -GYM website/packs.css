@@ -1,0 +1,381 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+.backgroundimage img{
+    height: 100vh;
+    width: 200vh;
+    position:fixed;
+    z-index: 1;
+    top: 0;
+    opacity: 2px;
+}
+.head{
+    position: relative;
+    top: 18px;
+    z-index: 2;
+    color: #eefeee;;
+    font-size: xx-large;
+    font-family: fantasy;
+    letter-spacing: 20px;
+    font-weight: 400px;
+    cursor: default;
+    margin-left: 80vh;
+}
+.fitnesscontainer{
+    position: relative;
+    z-index: 2;
+    color: white;
+    top: 50px;
+    left: 20vh;
+    right: 20vh;
+    height: 245px;
+    width: 243px;
+    border: 1mm solid white;
+    border-radius: 15px;
+    background: transprent;
+    backdrop-filter: blur(5px);
+    padding-left: 10px;
+    transition: all 0.4s;
+    
+}
+.hrfitness h3{
+    left: 60px;
+    position: absolute;
+    font-family: fantasy;
+    font-size: medium;
+    cursor: default;
+    font-weight: lighter;
+    letter-spacing: 5px;
+    color: black;
+
+}
+.hrfitness h4{
+    position: absolute;
+    font-family: fantasy;
+    font-size: medium;
+    cursor: default;
+    font-weight: lighter;
+    letter-spacing: 2px;
+    padding-top: 25px ;
+    color: black;
+}
+.hrfitness h5{
+    position: absolute;
+    font-family: fantasy;
+    font-size: medium;
+    cursor: default;
+    font-weight: lighter;
+    letter-spacing: 2px;
+    padding-top: 60px ;
+    color: black;
+    padding-left: 60px;
+
+}
+.btnhrfitness{
+    height: 35px;
+    width: 80px;
+    border: white ;
+    border-radius: 10px;
+    position: absolute;
+    top: 200px;
+    left: 80px;
+    background-color: aqua;
+    cursor: pointer;
+}
+.a1{
+    text-decoration: none;
+    color:aqua ;
+}
+.anytimefitnesscontainer{
+    position: relative;
+    z-index: 2;
+    color: white;
+    height: 250px;
+    width: 250px;
+    border: 1mm solid white;
+    border-radius: 15px;
+    background-color: white;
+    background: transparent;
+    backdrop-filter: blur(5px);
+    transition: all 0.4s;
+    left:75vh;
+    bottom: 200px;
+}
+.Planetfitness h3{
+    position: absolute;
+    font-family: fantasy;
+    font-size: medium;
+    cursor: default;
+    font-weight: lighter;
+    letter-spacing: 2px;
+    padding-left: 10vh;
+}
+.Planetfitness h4{
+    position: absolute;
+    font-family: fantasy;
+    font-size: medium;
+    cursor: default;
+    font-weight: lighter;
+    letter-spacing: 2px;
+    padding-top: 25px ;
+    color: black;
+
+}
+.Planetfitness h5{
+    position: absolute;
+    font-family: fantasy;
+    font-size: medium;
+    cursor: default;
+    font-weight: lighter;
+    letter-spacing: 2px;
+    padding-top: 60px ;
+    color: black;
+    padding-left: 60px;
+
+
+}
+.a2{
+    text-decoration: none;
+    color:aqua ;
+
+}
+.Antimecontainer{
+    position: relative;
+    z-index: 2;
+    color: white;
+    height: 250px;
+    width: 250px;
+    border: 1mm solid white;
+    border-radius: 15px;
+    background-color: white;
+    background: transparent;
+    backdrop-filter: blur(5px);
+    transition: all 0.4s;
+    bottom: 460px;
+    left: 130vh;
+}
+.Anytimefitness h3{
+    position: absolute;
+    font-family: fantasy;
+    font-size: medium;
+    cursor: default;
+    font-weight: lighter;
+    letter-spacing: 2px;
+    padding-left: 10vh;
+
+}
+.Anytimefitness h4{
+    position: absolute;
+    font-family: fantasy;
+    font-size: medium;
+    cursor: default;
+    font-weight: lighter;
+    letter-spacing: 2px;
+    padding-top: 25px ;
+    color: black;
+}
+.Anytimefitness h5{
+    font-family: fantasy;
+    font-size: medium;
+    cursor: default;
+    font-weight: lighter;
+    letter-spacing: 2px;
+    padding-top: 60px ;
+    color: black;
+    padding-left: 60px;
+
+
+}
+.a3{
+    text-decoration: none;
+    color:aqua ;
+
+}
+.Antimecontainer:hover{
+    transform: scale(1.05);
+}
+.anytimefitnesscontainer:hover{
+    transform: scale(1.05);
+}
+.fitnesscontainer:hover{
+    transform: scale(1.05);
+}
+.goldgymcontainer{
+    position: relative;
+    z-index: 2;
+    color: white;
+    height: 250px;
+    width: 250px;
+    border: 1mm solid white;
+    border-radius: 15px;
+    background-color: white;
+    background: transparent;
+    backdrop-filter: blur(5px);
+    transition: all 0.4s;
+    left: 20vh;
+    bottom: 44vh;
+}
+.goldgymh h3{
+    position: absolute;
+    font-family: fantasy;
+    font-size: medium;
+    cursor: default;
+    font-weight: lighter;
+    letter-spacing: 5px;
+    padding-left: 12vh;
+
+}
+.goldgymh h4{
+    position: absolute;
+    font-family: fantasy;
+    font-size: medium;
+    cursor: default;
+    font-weight: lighter;
+    letter-spacing: 2px;
+    padding-top: 25px ;
+    color: black;
+
+
+}
+.goldgymh h5{
+    font-family: fantasy;
+    font-size: medium;
+    cursor: default;
+    font-weight: lighter;
+    letter-spacing: 2px;
+    padding-top: 60px ;
+    color: black;
+    padding-left: 60px;
+
+
+}
+.a4{
+    text-decoration: none;
+    color:aqua ;
+
+
+}
+.crunchfitnesscontainer{
+    position: relative;
+    z-index: 2;
+    color: white;
+    height: 250px;
+    width: 250px;
+    border: 1mm solid white;
+    border-radius: 15px;
+    background-color: white;
+    background: transparent;
+    backdrop-filter: blur(5px);
+    transition: all 0.4s;
+    bottom: 460px;
+    left: 75vh;
+    bottom: 82vh;
+
+}
+.crunch h3{
+    position: absolute;
+    font-family: fantasy;
+    font-size: medium;
+    cursor: default;
+    font-weight: lighter;
+    letter-spacing: 5px;
+    padding-left: 8vh;
+
+}
+.crunch h4{
+    position: absolute;
+    font-family: fantasy;
+    font-size: medium;
+    cursor: default;
+    font-weight: lighter;
+    letter-spacing: 2px;
+    padding-top: 25px ;
+    color: black;
+
+
+}
+.crunch h5{
+    font-family: fantasy;
+    font-size: medium;
+    cursor: default;
+    font-weight: lighter;
+    letter-spacing: 2px;
+    padding-top: 60px ;
+    color: black;
+    padding-left: 60px;
+
+
+}
+.a5{
+    text-decoration: none;
+    color:aqua ;
+
+
+}
+.Trainecontainer{
+    position: relative;
+    z-index: 2;
+    color: white;
+    height: 250px;
+    width: 250px;
+    border: 1mm solid white;
+    border-radius: 15px;
+    background-color: white;
+    background: transparent;
+    backdrop-filter: blur(5px);
+    transition: all 0.4s;
+    bottom: 460px;
+    left: 130vh;
+    bottom: 120vh;
+
+}
+.coach h3{
+    position: absolute;
+    font-family: fantasy;
+    font-size: medium;
+    cursor: default;
+    font-weight: lighter;
+    letter-spacing: 5px;
+    padding-left: 12vh;
+
+}
+.coach h4{
+    position: absolute;
+    font-family: fantasy;
+    font-size: medium;
+    cursor: default;
+    font-weight: lighter;
+    letter-spacing: 2px;
+    padding-top: 25px ;
+    color: black;
+
+
+}
+.coach h5{
+    font-family: fantasy;
+    font-size: medium;
+    cursor: default;
+    font-weight: lighter;
+    letter-spacing: 2px;
+    padding-top: 60px ;
+    color: black;
+    padding-left: 60px;
+
+}
+.a5{
+    text-decoration: none;
+    color:aqua ;
+
+
+}
+.goldgymcontainer:hover{
+    transform: scale(1.05);
+}
+.crunchfitnesscontainer:hover{
+    transform: scale(1.05);
+}
+.Trainecontainer:hover{
+    transform: scale(1.05);
+}

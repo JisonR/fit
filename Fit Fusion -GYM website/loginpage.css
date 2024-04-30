@@ -1,0 +1,93 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+.bg{
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    height:100vh;
+    width:200vh;
+}
+
+.Loginpagecontainer{
+    position: absolute;
+    top:30%;
+    color:white;
+    left:42%;
+}
+.loginh2{
+    padding-left:85px ;
+    padding-bottom: 10px;
+    font-family: fantasy;
+    letter-spacing: 10px;
+    font-weight: 100;
+    font-size: xx-large;
+    margin-top: 5px;
+    
+
+}
+.username1{
+    margin-top: 10px;
+    border-radius: 10px;
+    height: 30px;
+    width:250px;
+    padding-left: 5px;
+    margin-bottom: 10px;
+    margin-left: 15px;
+}
+.password1{
+    margin-top: 10px;
+    border-radius: 10px;
+    height: 30px;
+    width:250px;
+    padding-left: 5px;
+    margin-bottom: 30px;
+    margin-left: 15px;
+}
+.loginbtn1{
+    margin-left: 35px;
+    height:35px;
+    width:100px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.optional{
+    margin-top: 15px;
+    margin-left: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.Loginpagecontainer{
+    background-color: black;
+    height: 300px;
+    width: 300px;
+    border-radius: 20px;
+    position: absolute;
+    background: transparent;
+    backdrop-filter: blur(10px);
+    
+}
+.a22{
+    color: whitesmoke;
+    text-decoration: none;
+}
+.a22:hover{
+    color:cyan;
+}
+.backbtn1{
+    margin-left: 165px;
+    height:35px;
+    width:100px;
+    border-radius: 20px;
+    cursor: pointer;
+    top: 183px;
+    position: absolute;
+   
+    
+}
+.a11{
+    text-decoration: none;
+    color: black;
+    
+}
